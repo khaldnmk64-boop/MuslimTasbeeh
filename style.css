@@ -1,0 +1,27 @@
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.title {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #00ffbf;
+}
+#counter {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+#tasbihBtn {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100%;
+    border: none;
+    transition: 0.2s;
+}
